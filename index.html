@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body class="bg-gray-100">
+    <header>
+        <div class="ml-16 my-4">
+            <div class="grid grid-cols-12">
+                <div class="flex justify-start w-28 col-span-4">
+                    <a href="index.html">
+                        <img src="Icons/Three.png">
+                    </a>
+                </div>
+                <div class="flex justify-items-end col-span-8 text-blue-800 font-bold hidden lg:inline-flex">
+                    <div class="mx-4 self-center">
+                        <button class="hover:bg-gray-200 focus:bg-gray-200 p-2 font-bold rounded-lg focus:outline-none">
+                            <a href="#">Corporate</a>
+                        </button>
+                    </div>
+                    <div class="mx-4 self-center">
+                        <button class="hover:bg-gray-200 focus:bg-gray-200 p-2 font-bold rounded-lg focus:outline-none">
+                            <a href="#">Blog</a>
+                        </button>
+                    </div>
+                    <div class="mx-4 self-center">
+                        <button class="hover:bg-gray-200 focus:bg-gray-200 p-2 font-bold rounded-lg focus:outline-none">
+                            <a href="#">Community</a>
+                        </button>
+                    </div>
+                    <div class="mx-4 self-center">
+                        <button class="hover:bg-gray-200 focus:bg-gray-200 p-2 font-bold rounded-lg focus:outline-none">
+                            <a href="#">Be a driver</a>
+                        </button>
+                    </div>
+                    <div class="mx-4 self-center">
+                        <button class="hover:bg-gray-200 focus:bg-gray-200 p-2 font-bold rounded-lg focus:outline-none">
+                            <a href="#">Contact us</a>
+                        </button>
+                    </div>
+                    <div class="ml-6 self-center">
+                        <button class="bg-gradient-to-b from-indigo-500 to-blue-900 text-white px-8 py-2 rounded-full font-bold shadow-xl hover:from-indigo-500 hover:to-indigo-900 focus:outline-none focus:from-indigo-500 focus:to-indigo-900">Sign in</button>
+                    </div>
+                    
+                </div>
+                <div class=" block lg:hidden col-span-8">
+                    <button class="bg-gray-100 float-right my-2 mx-12 focus:outline-none p-2 hover:bg-gray-300" id="nav">
+                        <i class="fas fa-bars fa-2x text-blue-800"></i>
+                    </button>
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        <div class="w-full bg-gray-100 border-1 border-gray-600 text-center text-decoration-none text-blue-900 hidden float-right shadow-lg"
+            id="dropdown">
+            <a href="#">
+                <div class="mx-auto self-center py-2 font-bold hover:bg-gray-300 focus:bg-gray-300">Corporate</div>
+            </a>
+            <a href="#">
+                <div class="mx-auto self-center py-2 font-bold hover:bg-gray-300 focus:bg-gray-300">Blog</div>
+            </a>
+            <a href="#">
+                <div class="mx-auto self-center py-2 font-bold hover:bg-gray-300 focus:bg-gray-300">Community</div>
+            </a>
+            <a href="#">
+                <div class="mx-auto self-center py-2 font-bold hover:bg-gray-300 focus:bg-gray-300">Be a driver</div>
+            </a>
+            <a href="#">
+                <div class="mx-auto self-center py-2 font-bold hover:bg-gray-300 focus:bg-gray-300">Contact us</div>
+            </a>
+            <a href="#">
+                <div class="mx-auto self-center py-2 font-bold hover:bg-gray-300 focus:bg-gray-300">Sign in</div>
+            </a>
+        
+        
+        </div>
+        
+    </header>
+    <main>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 p-8 my-12 mx-8">
+            <div class="text-5xl font-bold leading-tight text-blue-900">
+                Local <span class="urgent-txt">Urgent</span> Courier Delivery Services
+                <div class="text-base font-semibold my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum facere quos tempore non, ducimus vel, similique voluptatum, commodi accusantium cum nam soluta! Eveniet qui commodi fugit, excepturi tempore eius.</div>
+                <div class="my-4 mx-2 text-base">
+                <button
+                    class="bg-gradient-to-b from-indigo-500 to-blue-900 text-white px-8 py-2 rounded-full font-bold shadow-xl hover:from-indigo-500 hover:to-indigo-900 focus:outline-none focus:from-indigo-500 focus:to-indigo-900">
+                    Book a Delivery
+                </button>
+                </div>
+                <div class="my-12 mx-2 text-base">
+                    <button class="bg-gray-300 -mr-6 pl-8 pr-14 py-2 rounded-full font-bold focus:outline-none">Parcel</button>
+                    <button class="bg-urgent -ml-6 pr-8 pl-14 py-2 rounded-full font-bold filter drop-shadow-lg focus:outline-none">Food</button>
+                </div>
+            </div>
+            <div>
+                <img src="Icons/delivery.png">
+            </div>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-6 pl-24 mx-auto my-8">
+            <div class="w-28 self-center mx-auto mb-8 px-auto object-contain">
+                <img src="Icons/avast.png" href="A brand logo">
+            </div>
+            <div class="w-28 self-center mx-auto mb-8 px-auto object-contain">
+                <img src="Icons/buzzfeed.png" href="A brand logo">
+            </div>
+            <div class="w-28 self-center mx-auto mb-8 px-auto object-contain">
+                <img src="Icons/bookingcom.png" href="A brand logo">
+            </div>
+            <div class="w-28 self-center mx-auto mb-8 px-auto object-contain">
+                <img src="Icons/expedia.png" href="A brand logo">
+            </div>
+            <div class="w-28 self-center mx-auto mb-8 px-auto object-contain">
+                <img src="Icons/dispatch.png" href="A brand logo">
+            </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 mx-16">
+            <div class="w-66 mx-8 mb-8 p-4 shadow-lg rounded-lg">
+                <div class="w-20 py-2 mx-auto my-4 shadow-lg rounded-md">
+                    <img src="Icons/chronometer.png" class="w-12 mx-auto">
+                </div>
+                <p class="text-lg urgent-txt text-center font-bold">
+                    Faster Delivery
+                </p>
+                <p class="text-base text-blue-800 font-semibold text-center my-4">
+                    Food at you place under 30 minutes
+                </p>
+            </div>
+            <div class="w-66 mx-8 mb-8 p-4 shadow-lg rounded-lg">
+                <div class="w-20 py-2 mx-auto my-4 shadow-lg rounded-md">
+                    <img src="Icons/train.png" class="w-12 mx-auto">
+                </div>
+                <p class="text-lg urgent-txt text-center font-bold">
+                    Special Carriage
+                </p>
+                <p class="text-base text-blue-800 font-semibold text-center my-4">
+                    Your food as warm as it was cooked
+                </p>
+            </div>
+            <div class="w-66 mx-8 mb-8 p-4 shadow-lg rounded-lg bg-blue-900">
+                <div class="w-20 bg-white py-2 mx-auto my-4 shadow-lg rounded-md">
+                    <img src="Icons/money.png" class="w-12 mx-auto">
+                </div>
+                <p class="text-lg text-white text-center font-bold">
+                    Special Carriage
+                </p>
+                <p class="text-base text-white font-semibold text-center my-4">
+                    Your food as warm as it was cooked
+                </p>
+            </div>
+            <div class="w-66 mx-8 mb-8 p-4 shadow-lg rounded-lg">
+                <div class="w-20 py-2 mx-auto my-4 shadow-lg rounded-md">
+                    <img src="Icons/customer-service-agent.png" class="w-12 mx-auto">
+                </div>
+                <p class="text-lg urgent-txt text-center font-bold">
+                    Chilivery Support
+                </p>
+                <p class="text-base text-blue-800 font-semibold text-center my-4">
+                    24/7 support and live chat with our team
+                </p>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 lg:grid-cols-5 gap-2 p-8 my-12 mx-8 gap-2">
+            <div class="col-span-2">
+                <img src="Icons/Two.png">
+            </div>
+            <div class="text-4xl font-bold leading-tight text-blue-900 col-span-3">
+                <div class="my-4">
+                    Find Favourites and Discover new ones from our App
+                </div>
+                <p class="text-blue-800 font-semibold text-base my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quibusdam? Eum aut ratione, perspiciatis fugit ex et cupiditate sint molestias quasi nobis nesciunt corporis pariatur nihil debitis, facere magnam rem?</p>
+
+            </div>
+        </div>
+        <div class="grid grid-cols-3 lg:grid-cols-5 gap-2 p-8 my-12 mx-8 gap-2">
+            <div class="text-4xl font-bold leading-tight text-blue-900 col-span-3">
+                <div class="my-4">
+                    Receive your food at your doorstep
+                </div>
+                <p class="text-blue-800 font-semibold text-base my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae, quibusdam? Eum aut ratione, perspiciatis fugit ex et cupiditate sint molestias quasi nobis nesciunt
+                    corporis pariatur nihil debitis, facere magnam rem?</p>
+            
+            </div>
+            <div class="col-span-2">
+                <img src="Icons/One.png">
+            </div>
+            
+        </div>
+        <div class="text-center">
+            <p class="text-4xl text-blue-900 font-bold">Get to know Us</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 lg:mx-28 xl:grid-cols-3 text-center my-12">
+            <div class="w-72 mx-auto p-8 shadow-lg rounded-lg mb-8">
+                <p class="text-4xl urgent-txt font-bold my-4">2570K+</p>
+                <p class="text-2xl text-blue-800 font-semibold">Users Order Online</p>
+            </div>
+            <div class="w-72 mx-auto p-8 shadow-xl rounded-lg mb-8">
+                <p class="text-4xl urgent-txt font-bold my-4">177</p>
+                <p class="text-2xl text-blue-800 font-semibold">Cities and Even More on the way</p>
+            </div>
+            <div class="w-72 mx-auto p-8 shadow-lg rounded-lg mb-8">
+                <p class="text-4xl urgent-txt font-bold my-4">15,000</p>
+                <p class="text-2xl text-blue-800 font-semibold">Daily Customers</p>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-28">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-16">
+            <div class="text-center md:text-left p-4 mx-auto">
+
+                <img src="Icons/Three.png" class="w-36 mt-4 mx-auto">
+                <p class="font-semibold text-blue-900">
+                    Lorem ipsum is simply dummy text of some tag.
+
+                </p>
+            </div>
+            <div class="text-center md:text-left p-4 text-blue-900 mx-4 mb-4">
+                <p class="text-2xl font-bold mb-8">
+                    Our Services
+                </p>
+                <p class="font-semibold text-lg mb-8">
+                    <a href="#">Pricing</a>
+                </p>
+                <p class="font-semibold text-lg mb-8">
+                    <a href="#">
+                        Tracking
+
+                    </a>
+                </p>
+                <p class="font-semibold text-lg mb-8">
+                    <a href="#">
+                        Report a bug
+                    </a>
+                </p>
+                <p class="font-semibold text-lg">
+                    <a href="#">
+                        Terms and Services
+                    </a>
+                </p>
+
+            </div>
+            <div class="text-center md:text-left p-4 text-blue-900 mb-4">
+                <p class="text-2xl font-bold mb-8">
+                    Our Company
+                </p>
+                <p class="font-semibold text-lg mb-8">
+                    <a href="#">
+                        Reporting
+                    </a>
+                </p>
+                <p class="font-semibold text-lg mb-8">
+                    <a href="#">
+                        Get in touch
+                    </a>
+                </p>
+                <p class="font-semibold text-lg">
+                    <a href="#">
+                        Management
+                    </a>
+                </p>
+            </div>
+            <div class="text-center md:text-left p-4 text-blue-900">
+                <p class="text-2xl font-bold mb-8">
+                    Address
+                </p>
+                <p class="font-semibold text-lg mb-8">
+                    121 King Safdas House
+                </p>
+                <p class="font-semibold text-lg mb-8">
+                    VIC201774
+                </p>
+                <p class="font-semibold text-lg mb-8">
+                    888-123-777-177
+                </p>
+                <p class="font-semibold text-lg">
+                    example@email.com
+                </p>
+            </div>
+
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

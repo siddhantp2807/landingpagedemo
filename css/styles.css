@@ -1,0 +1,14 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.urgent-txt {
+    color: #f7921b;
+}
+
+.bg-urgent {
+    background: linear-gradient(to left, #f7b61b, #f7921b);
+    color: white;
+}
+
+
+
